@@ -35,7 +35,7 @@
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.17.3",
     "sass-loader": "^7.1.0",
-    "string-replace-loader": "^3.0.1",
+    "string-replace-loader": "^2.3.0",
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
