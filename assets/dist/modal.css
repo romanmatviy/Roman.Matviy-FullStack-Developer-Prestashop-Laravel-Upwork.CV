@@ -1,0 +1,79 @@
+.modal {
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+          justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+}
+.modal .title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.modal .promo,.modal .title {
+  font-weight: bold;
+}
+.modal .wrapper-btn {
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  display: -webkit-flex;
+  display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+}
+.modal .btn {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.modal .btn:hover {
+  opacity: 0.5;
+}
+.modal .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+.modal .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+.modal .btn-contact {
+  max-width: 260px;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 5px;
+  cursor: default;
+  margin: 10px;
+  max-width: 700px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  z-index: 999;
+}
+
+@media only screen and (max-width: 767px) {
+  .modal .wrapper-btn {
+    -webkit-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .modal .btn {
+    max-width: 100%;
+    width: 100%;
+  }
+}
